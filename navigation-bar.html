@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-family: default;
+            grid-column: auto;
+            text-align: center;
+            border: 3px solid yellow;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            border: 1px solid red;
+
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: dotted;
+            margin-left: 20px;
+            font-size: 18px;
+            text-transform: initial;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+
+        .menu a {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="navbar">
+                <div class="logo">Logo</div>
+                <div class="menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
