@@ -13,7 +13,7 @@
             font-family: default;
             grid-column: auto;
             text-align: center;
-            border: 3px groove yellow;
+            border: 1px groove yellow;
         }
 
         #navbar {
@@ -49,6 +49,17 @@
             margin-left: 0;
             margin-top: 10px;
         }
+
+        .card-body {
+            border: 3px solid #4986e7;
+        }
+
+        .card-text {
+            text-transform: initial;
+            text-shadow: rgb(17, 16, 16) 1px 0px 2px, rgb(9, 48, 53) 0px 1px 1px;
+            text-underline-offset: initial;
+            text-justify: auto;
+        }
     </style>
 </head>
 
@@ -73,9 +84,26 @@
                     <div class="card-body">
                         <h5 class="card-title">Welcome to Website Building</h5>
                         <img src="menu.jpg" class="img-fluid" alt="Banner Image"
-                            style="max-width: 200%; height: 400px; object-fit: cover;">
+                            style="max-width: 200%; height: 400px; object-fit: contain;">
                         <p class="card-text mt-3">This is a simple website built using HTML and Bootstrap on a
                             restaurant website.</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><code>Portfolio</code></h5>
+                        <p class="card-text">Our restaurant was founded in the 19th century. We have been serving
+                            delicious food to our customers for over 100 years. Our menu features a variety of dishes,
+                            including traditional French cuisine and modern fusion dishes. We pride ourselves on using
+                            fresh, locally sourced ingredients to create our dishes. Our restaurant has a cozy and
+                            welcoming atmosphere, making it the perfect place for a romantic dinner or a family
+                            gathering. We also offer catering services for events and special occasions. Come visit us
+                            and experience the taste of France in the heart of the city!.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Us</h5>
+                        <p class="card-text">Address: 123 Main Street, City, Country</p>
+                        <p class="card-text">Phone: (123) 456-7890</p>
+                        <p class="card-text">Email: lamaisondesfrancais@example.com</p>
                     </div>
                 </div>
             </div>
