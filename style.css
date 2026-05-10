@@ -1,0 +1,31 @@
+#social-media {
+    background: rgb(104, 102, 102);
+}
+
+.m-heading {
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.media-link {
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 14px;
+    margin-right: 18px;
+    background: transparent;
+    text-align: left;
+}
+
+.row.pt-5 {
+    gap: 18px;
+}
+
+.media-link h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.media-link i {
+    font-size: 22px;
+    text-emphasis-color: initial;
+}
